@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
       {
-      myFriends.map((friend) => (<h5>{friend}</h5> ))
+      myFriends.map((friend) => (<h2>{friend}</h2> ))
       }
     </div>
   );
